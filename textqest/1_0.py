@@ -16,6 +16,8 @@ step_1 = easygui.buttonbox("Что вы выбирете?", title=("Квест")
 if step_1 == "разогнать комаров":
     easygui.msgbox(
         "Вы выбрали разогнать комаров, тем самым отгадайте загадку!", title=("Квест"),image=("/Users/mac/PycharmProjects/pythonProject/stas test/textqest/easygui img/комар.jpg"))
+    easygui.msgbox('Извивается, шипит,\nНе совсем не ядовит\nПроглотить он может разом\n'
+          'Кабана иль дикобраза.\n', image=("/Users/mac/PycharmProjects/pythonProject/stas test/textqest/easygui img/много змей.jpg"))
     count = 0
     while True:
         a = easygui.buttonbox('Кто это?, у вас 3  попытки', choices=["Уж", "Питон", "Гадюка"], title=("Квест"),image=("/Users/mac/PycharmProjects/pythonProject/stas test/textqest/easygui img/много змей.jpg"))
